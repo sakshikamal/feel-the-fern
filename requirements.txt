@@ -1,0 +1,3 @@
+flask
+flask-ngrok
+gunicorn==20.0.4
