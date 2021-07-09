@@ -17,7 +17,7 @@ def display_appointment():
   return render_template('tables.html')
 
 @app.route('/map')
-def display_user():
+def display_map():
   return render_template('maps.html')
 
 @app.route('/notifications')
