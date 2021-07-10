@@ -24,9 +24,9 @@ def display_appointment():
 def display_map():
   return render_template('maps.html')
 
-@app.route('/notifications')
-def display_notifications():
-  return render_template('notifications.html')
+# @app.route('/notifications')
+# def display_notifications():
+#   return render_template('notifications.html')
 
 if __name__ == '__main__':
   app.run(debug=True)
